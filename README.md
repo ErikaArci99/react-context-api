@@ -23,3 +23,5 @@ const posts = [
 Numero minimo di push: 10;
 Bonus
 Implementare un componente Alert gestito tramite Context
+
+ESERCIZIO TERMINATO
