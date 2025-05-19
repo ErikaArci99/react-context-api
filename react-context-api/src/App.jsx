@@ -1,5 +1,6 @@
 import React from 'react';
 import { PostContext } from './components/PostContext';
+import PostsPage from './components/PostPage';
 import './App.css';
 
 const posts = [
