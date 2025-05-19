@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostContext } from './components/PostContext';
+import { PostContext } from './context/PostContext';
 import PostsPage from './components/PostPage';
 import './App.css';
 
