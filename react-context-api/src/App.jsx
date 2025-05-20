@@ -16,11 +16,9 @@ function App() {
   return (
     <PostContext.Provider value={posts}>
       <AlertProvider>
-
         <div className="App">
           <PostsPage />
         </div>
-
       </AlertProvider>
     </PostContext.Provider>
   );
