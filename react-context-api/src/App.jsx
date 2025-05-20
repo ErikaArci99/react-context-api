@@ -3,6 +3,7 @@ import { PostContext } from './context/PostContext';
 import PostsPage from './components/PostPage';
 import './App.css';
 import { AlertProvider } from './context/AlertContext';
+import Alert from './components/Alert';
 
 
 const posts = [
@@ -17,6 +18,7 @@ function App() {
     <PostContext.Provider value={posts}>
       <AlertProvider>
         <div className="App">
+          <Alert />
           <PostsPage />
         </div>
       </AlertProvider>
