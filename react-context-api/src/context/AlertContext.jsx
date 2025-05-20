@@ -16,3 +16,5 @@ const AlertProvider = ({ children }) => {
         </AlertContext.provider>
     );
 };
+
+export { AlertProvider };
